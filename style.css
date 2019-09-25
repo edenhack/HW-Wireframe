@@ -4,16 +4,44 @@ body{
     background: #777;
     width: 960px;
     font-size: 18px;
-    position: relative;
     margin: 10px;
     min-height: 100%;
-    display: block;
-    align-items: center;
     padding: 10px;
+    align-items: center;
 }
-header{
+
+header,nav,section,aside,footer{
     background: #ebebeb;
-    color: orange;
+    margin:10px;
+    padding:10px;
+    text-align: center;
+}
+section{
+    width: 495px;
+    float:left;
+    margin:10px;
+    padding:10px;
+}
+aside{
+    float:left;
+    margin:10px;
+    padding:10px;
+}
+article{
+    color: #ebebeb;
+    background: #777;
+    margin:10px;
+    padding:10px;
+}
+h1, p{
+    color: #777;
+    background: #ebebeb;
+}
+footer{
+    clear:both;
+}
+/*header{
+    background: #ebebeb;
     float: center;
     text-align: center;
     padding: 10px;
@@ -21,7 +49,6 @@ header{
 }
 nav{
     background: #ebebeb;
-    color: red;
     float: center;
     text-align: center;
     padding: 10px;
@@ -29,15 +56,15 @@ nav{
 }
 aside{
     background: #ebebeb;
-    color: purple;
     float: left;
     text-align: center;
     display: block;
+    padding: 10px;
+    margin: 10px;
 }
 section{
     background: #ebebeb;
     width: 495px;
-    color: green;
     float: left;
     text-align: center;
     display: block;
@@ -45,7 +72,6 @@ section{
 article{
     color: #ebebeb;
     background: #777;
-    color: black;
 }
 h1{
     color: #777;
@@ -54,14 +80,15 @@ h1{
 p{
     color: #777;
     background: #ebebeb;
-    color: pink;
     margin: 10px;
+    padding: 10px;
+
 }
 footer{
     background: #ebebeb;
-    color: blue;
     text-align: center;
     padding: 10px;
     margin: 10px;
     clear: both;
 }
+*/

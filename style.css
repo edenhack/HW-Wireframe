@@ -18,11 +18,12 @@ header,nav,section,aside,footer{
 section{
     width: 495px;
     float: left;
-    display: block;
     padding: 20px;
 }
 aside{
     float:left;
+    width: 325px;
+    height: 227px;
 }
 article{
     color: #ebebeb;
@@ -33,6 +34,7 @@ article{
 h1, p{
     color: #777;
     background: #ebebeb;
+    padding: 15px;
 }
 footer{
     clear:both;
